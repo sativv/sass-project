@@ -1,0 +1,113 @@
+.navlist {
+  display: block;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: -0.346154px;
+  list-style: none;
+  color: #111111;
+  margin-top: 61px;
+  margin-left: 124px;
+  margin-right: 124px;
+}
+
+.navlist a {
+  text-decoration: none;
+}
+
+.navlist a:visited {
+  color: black;
+}
+
+.logo {
+  float: left;
+}
+
+.navright {
+  float: right;
+  padding-left: 29px;
+} /*# sourceMappingURL=frontpage.css.map */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(32, 1fr);
+  width: 1110px;
+  height: 1960px;
+  grid-gap: 20px;
+}
+
+.img1 {
+  grid-column: 1/4;
+  grid-row: 1/7;
+}
+
+.img2 {
+  grid-column: 1/4;
+  grid-row: 8/15;
+}
+
+.img3 {
+  grid-column: 1/4;
+  grid-row: 16/23;
+}
+
+.img4 {
+  grid-column: 1/4;
+  grid-row: 24/32;
+}
+
+.img5 {
+  grid-column: 4/7;
+  grid-row: 1/7;
+}
+
+.img6 {
+  grid-column: 4/7;
+  grid-row: 7/14;
+}
+
+.img7 {
+  grid-column: 4/7;
+  grid-row: 14/23;
+}
+
+.img8 {
+  grid-column: 4/7;
+  grid-row: 23/32;
+}
+
+.img9 {
+  grid-column: 7/9;
+  grid-row: 1/10;
+}
+
+.img10 {
+  grid-column: 7/9;
+  grid-row: 11/17;
+}
+
+.img11 {
+  grid-column: 7/9;
+  grid-row: 18/26;
+}
+
+.img12 {
+  grid-column: 7/9;
+  grid-row: 27/32;
+}
+
+.medium-font-size {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  /* or 136% */
+  color: #111111;
+  max-width: 635px;
+  min-height: 106px;
+  margin-left: 126px;
+}/*# sourceMappingURL=frontpage.css.map */
