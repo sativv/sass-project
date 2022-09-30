@@ -73,6 +73,13 @@ body {
 
 }
 
+.txt-grid {
+    display: flex;
+    margin-top: 100px ;
+
+}
+
+
 .gridprojects {
     display: grid;
     column-gap: 77px;
@@ -80,9 +87,13 @@ body {
     max-width: 335px;
     width: 100%;
     min-height: 343px;
+    margin-left: 140px;
+    margin-top: 40px;
 }
 
-
+.image-middle-p2 {
+    margin-top: 60px;
+}
 
 .g1 { grid-area: 1 / 1 / 2 / 2; }
 .g2 { grid-area: 2 / 1 / 3 / 2; }

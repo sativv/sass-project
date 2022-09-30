@@ -31,6 +31,8 @@ body {
 
 }
 
+
+
 .small-text {
     font-family: 'Mulish';
     font-style: normal;
@@ -59,8 +61,10 @@ body {
     min-height: 56px;
 }
 
-.top-section-p3{
+
+.txt-grid {
     display: flex;
+    flex-direction: column;
 }
 
 .form {
