@@ -1,1 +1,13 @@
-@import 'footer'
+
+body {
+    max-width: 1109px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    }
+
+@import 'footer';
+
+
+

@@ -1,1 +1,115 @@
-@import 'navbar'
+@import 'navbar';
+body {
+    max-width: 1109px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    }
+
+
+
+
+.big-text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    /* or 138% */
+    max-width: 495px;
+    width: 100%;
+    min-height: 130px;
+    
+    
+    color: #111111;
+}
+
+.main-text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    max-width: 635px;
+    width: 100%;
+
+
+    color: #111111;
+}
+
+.midpage {
+    max-width: 1109px;
+    width: 100%;
+}
+
+.grey {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #111111;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+
+.black {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #111111;
+
+}
+
+.gridprojects {
+    display: grid;
+    column-gap: 77px;
+    row-gap: 19px; 
+    max-width: 335px;
+    width: 100%;
+    min-height: 343px;
+}
+
+
+
+.g1 { grid-area: 1 / 1 / 2 / 2; }
+.g2 { grid-area: 2 / 1 / 3 / 2; }
+.g3 { grid-area: 3 / 1 / 4 / 2; }
+.g4 { grid-area: 4 / 1 / 5 / 2; }
+.g5 { grid-area: 5 / 1 / 6 / 2; }
+.g6 { grid-area: 6 / 1 / 7 / 2; }
+.g7 { grid-area: 1 / 2 / 2 / 3; }
+.g8 { grid-area: 2 / 2 / 3 / 3; }
+.g9 { grid-area: 3 / 2 / 4 / 3; }
+.g10 { grid-area: 4 / 2 / 5 / 3; }
+.g11 { grid-area: 5 / 2 / 6 / 3; } 
+.g12 { grid-area: 6 / 2 / 7 / 3; } 
+
+
+
+.grid-2-p2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px; 
+    margin-top: 45px;
+    margin-bottom: 132px;
+}
+
+
+.p1 { grid-area: 1 / 1 / 2 / 2; }
+.p2{ grid-area: 1 / 2 / 2 / 3; }
+.p3 { grid-area: 1 / 3 / 2 / 4; } 

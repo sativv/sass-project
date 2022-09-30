@@ -184,19 +184,36 @@ margin: auto
     grid-template-columns: 2fr repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     width: 1110;
-    margin-top:137px;
+    margin-top:48px;
 }
 
 
 .awards { grid-area: 1 / 1 / 2 / 2; }
+
 .site { grid-area: 1 / 2 / 2 / 3; }
+
 .best-nav { grid-area: 2 / 2 / 3 / 3; }
+
 .uikit { grid-area: 1 / 3 / 2 / 4;}
+.applicat { grid-area: 1 / 3 / 2 / 4;
+margin-top: 30px;}
+
 .template { grid-area: 2 / 3 / 3 / 4; }
+.applic3 { grid-area: 2 / 3 / 3 / 4; 
+margin-top: 30px;}
+
 .year-1 { grid-area: 1 / 4 / 2 / 5; 
     text-align: right;}
+
 .year-2 { grid-area: 2 / 4 / 3 / 5; 
     text-align: right;} 
+
+
+
+.padnone {
+    padding: none
+    ;
+}
 
 
 
@@ -263,19 +280,47 @@ margin: auto
     display: grid;
     grid-template-columns: 2fr repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr); 
-    margin-top: 114px;
+    margin-top: 48px;
+    align-items: start;
+    
 }
 
 .designawards { grid-area: 1 / 1 / 2 / 2; }
+
 .Sotd { grid-area: 1 / 2 / 2 / 3; }
+
 .bestnav { grid-area: 2 / 2 / 3 / 3; }
-.genuikit{ grid-area: 1 / 3 / 2 / 4; }
+
+.genuikit{ grid-area: 1 / 3 / 2 / 4;}
+.applic2{ grid-area: 1 / 3 / 2 / 4;
+margin-top: 30px;}
+
 .gentemp { grid-area: 2 / 3 / 3 / 4; }
+.appli { grid-area: 2 / 3 / 3 / 4;
+margin-top: 30px; }
+
 .year-3 { grid-area: 1 / 4 / 2 / 5; 
 text-align: right;}
+
 .year-4 { grid-area: 2 / 4 / 3 / 5; 
     text-align: right;} 
 
-@import 'footer'
 
+
+
+.border {
+        border-top: #D8D8D8 2px solid;
+        border-bottom:#D8D8D8 2px solid;
+        margin-top: 30px;
+        
+ }
+
+
+
+ .border-2 {
+    border-top: #D8D8D8 2px solid;
+    margin-top: 137px;
+    
+ }
+@import 'footer'
 
