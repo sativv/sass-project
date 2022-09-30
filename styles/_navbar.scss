@@ -1,5 +1,5 @@
 .navlist {
-  display: inline-block;
+  display: block;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
@@ -14,6 +14,7 @@
   max-width: 1109px;
   width: 100%;
   border: none;
+  padding: 0;
 }
 
 .navlist a {
@@ -24,8 +25,12 @@
   color: black;
 }
 
+.logo {
+  float: left;
 
+}
 
 .navright {
   float: right;
+  margin-left: 29px;
 } /*# sourceMappingURL=frontpage.css.map */

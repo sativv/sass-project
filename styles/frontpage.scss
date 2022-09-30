@@ -179,6 +179,103 @@ margin: auto
 
 
 
+.award-grid {
+    display:grid;
+    grid-template-columns: 2fr repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 1110;
+    margin-top:137px;
+}
+
+
+.awards { grid-area: 1 / 1 / 2 / 2; }
+.site { grid-area: 1 / 2 / 2 / 3; }
+.best-nav { grid-area: 2 / 2 / 3 / 3; }
+.uikit { grid-area: 1 / 3 / 2 / 4;}
+.template { grid-area: 2 / 3 / 3 / 4; }
+.year-1 { grid-area: 1 / 4 / 2 / 5; 
+    text-align: right;}
+.year-2 { grid-area: 2 / 4 / 3 / 5; 
+    text-align: right;} 
+
+
+
+
+.bold-1 {
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+
+
+    color: #111111;
+}
+
+.bold-2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #111111;
+
+
+}
+
+.thin-1 {
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #111111;
+}
+.thin-2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #111111;
+
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+
+
+
+
+.award-grid-2 {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    margin-top: 114px;
+}
+
+.designawards { grid-area: 1 / 1 / 2 / 2; }
+.Sotd { grid-area: 1 / 2 / 2 / 3; }
+.bestnav { grid-area: 2 / 2 / 3 / 3; }
+.genuikit{ grid-area: 1 / 3 / 2 / 4; }
+.gentemp { grid-area: 2 / 3 / 3 / 4; }
+.year-3 { grid-area: 1 / 4 / 2 / 5; 
+text-align: right;}
+.year-4 { grid-area: 2 / 4 / 3 / 5; 
+    text-align: right;} 
+
 @import 'footer'
 
 
