@@ -1,7 +1,19 @@
 body {
   max-width: 1360px;
   width: 100%;
-  min-height: 3840px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
 }
 
 .navlist {
@@ -16,8 +28,7 @@ body {
   list-style: none;
   color: #111111;
   margin-top: 61px;
-  margin-left: 124px;
-  margin-right: 124px;
+  min-height: 23px;
 }
 
 .navlist a {
@@ -37,8 +48,9 @@ body {
   padding-left: 29px;
 }
 .top-grid-text {
-  margin-left: 125px;
   max-width: 635px;
+  width: 100%;
+  min-height: 251px;
 }
 
 .shoot {
@@ -65,7 +77,6 @@ body {
 .page-1-grid {
   width: 1110px;
   height: 1960px;
-  margin-left: 125px;
 }
 
 .grid {
@@ -1637,8 +1648,8 @@ body {
   /* or 136% */
   color: #111111;
   max-width: 635px;
+  width: 100%;
   min-height: 106px;
-  margin-left: 126px;
 }
 
 .greytext {
@@ -1667,7 +1678,6 @@ body {
   -webkit-columns: 2;
      -moz-columns: 2;
           columns: 2;
-  margin-left: 92px;
   margin-top: 30px;
   gap: 70px;
 }
